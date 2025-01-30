@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utils.ExtentListener"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="CustomerCare.VerifyCustomerCare">
+        <methods>
+          <include name="setup"/>
+          <include name="validateOnDashboardTest"/>
+          <include name="verifySearchGeographyTest"/>
+          <include name="createTasks"/>
+          <include name="navigateToApplicationTest"/>
+          <include name="navigateToDashboardFromGis"/>
+          <include name="searchCustomer360"/>
+          <include name="ValidateOnCustomer360Test"/>
+        </methods>
+      </class> <!-- CustomerCare.VerifyCustomerCare -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
