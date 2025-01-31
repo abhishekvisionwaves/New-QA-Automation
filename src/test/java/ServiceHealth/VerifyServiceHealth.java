@@ -12,7 +12,6 @@ import pages.TrialManagement;
 import utils.ExtentListener;
 import utils.RetryAnalyzer;
 
-@Listeners(ExtentListener.class)
 public class VerifyServiceHealth extends BaseSetup {
 
 	public ServiceHealth serviceHealth;
