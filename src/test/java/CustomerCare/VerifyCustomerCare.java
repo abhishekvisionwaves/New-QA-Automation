@@ -11,8 +11,6 @@ import pages.CustomerCare;
 import utils.ExtentListener;
 import utils.RetryAnalyzer;
 
-@Listeners(ExtentListener.class)
-
 public class VerifyCustomerCare extends BaseSetup {
 
 	public CustomerCare cs;
