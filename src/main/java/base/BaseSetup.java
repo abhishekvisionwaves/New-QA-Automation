@@ -24,6 +24,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 
+@Listeners(ExtentListener.class)
 public class BaseSetup {
 	public static WebDriver driver;
 	Logger logger = LogManager.getLogger(BaseSetup.class);
