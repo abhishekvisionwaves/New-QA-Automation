@@ -26,7 +26,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version> <!-- Use the latest version -->
                 <configuration>
-                    <!-- Path to your TestNG suite -->
+                    <!-- Path to your TestNG suite  -->
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/CustomerCare_testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
